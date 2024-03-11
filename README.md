@@ -70,9 +70,11 @@ Please refer to https://nixos.org/download for more info.
 #### Using nix
 
 To set up the dependencies for running artifact evaluation, run:
+
 ```
 nix --experimental-features 'nix-command flakes' develop -i
 ```
+
 Verify the nix shell is running by typing `which mappl`. The output should be similar to:
 
 ```
